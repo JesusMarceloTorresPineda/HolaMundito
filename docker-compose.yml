@@ -5,3 +5,11 @@ services:
       	context: .
       	dockerfile: DockerFile
     image: 'marcelo1102/dockeruno/hola.py'
+
+version: '3.7'
+services:
+  app:
+    build:
+        context: .
+        dockerfile: DockerFile
+    image: '0rt1z112/projectpython/helloworld'
