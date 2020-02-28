@@ -3,5 +3,5 @@ services:
   app:
     build:
         context: .
-        dockerfile: DockerFile
+        dockerfile: Dockerfile
     image: 'marcelo1102/dockeruno/hola.py'
