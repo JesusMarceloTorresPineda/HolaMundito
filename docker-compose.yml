@@ -1,7 +1,7 @@
 version: '3.7'
-	services:
-  		app:
-    		build:
-      		context: .
-      		dockerfile: DockerFile
-    		image: 'marcelo1102/dockeruno/hola.py'
+services:
+  app:
+    build:
+      	context: .
+      	dockerfile: DockerFile
+    image: 'marcelo1102/dockeruno/hola.py'
