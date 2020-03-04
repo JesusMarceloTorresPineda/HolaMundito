@@ -4,4 +4,4 @@ services:
     build:
         context: .
         dockerfile: Dockerfile
-    image: 'marcelo1102/dockeruno/hola.py'
+    image: 'marcelo1102/dockeruno:latest'
